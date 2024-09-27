@@ -63,6 +63,6 @@ This API uses a H2 Database for storage and is useful for development, testing a
 </ol>
 
 <h3>Using the application</h3>
-<p>The application uses an 'In Memory' database, so no need to install any database. The configuration of the database is made in the "application.properties" and creates a single table called "task" when the application starts. Using the "data.sql" file and it inserts 3 tasks in the table using the method populatesH2Database().
+<p>The application uses an 'In Memory' database, so no need to install any database. The configuration of the database is made in the "application.properties" and creates a single table called "task" when the application starts using the "data.sql" file, then it inserts 3 tasks in the table using the method populatesH2Database().
 
 Its possible to teste the API with tools like Postman, sending HTTP requests to the mentioned endpoints.</p>
